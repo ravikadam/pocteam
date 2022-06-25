@@ -1,10 +1,11 @@
 # pocteam
 Team POC
+
 Please clone this repository into folder. You need to use NodeJS 12 or more to work with this.
 
 Three important files
 
-AppSettings.js files stores clientID - this is same as ClientID which is defined in Slidedge Azure Portal for Trial purpose. It is not used in production code anywhere. I used it to ensure I do not break any working code.
+AppSettings.js files stores clientID - this is same as ClientID which is defined in Slidedge Azure Portal for Trial purpose. It is not used in production code anywhere. I used it to ensure I do not break any working code. This file also contains permission scope for API. These scopes are passed with API call.
 
 Helper file contains all Graph API calls wrapped by Javascript functions. 
 
